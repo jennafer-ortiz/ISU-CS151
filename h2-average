@@ -1,0 +1,28 @@
+#Jennafer Ortiz
+#cs15138
+#rounding code learned from w3docs.com
+#https://www.w3docs.com/snippets/python/how-to-round-to-2-decimals-with-python.html
+
+#----------------------------
+# Ask the user for 3 integers.  Calculate and display their average.
+#
+# Example transcript
+'''
+Integer #1: 7
+Integer #2: 5
+Integer #3: 1
+
+Your average is:  4.33
+'''
+#----------------------------
+
+a = int(input('Integer 1: '))
+b = int(input('Integer 2: '))
+c = int(input('Integer 3: '))
+d = int(a + b + c) 
+e = d / 3
+
+decimal_num = e
+rounded_num = round(decimal_num, 2)
+
+print('The average of your numbers is ', rounded_num)
