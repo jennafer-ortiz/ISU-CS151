@@ -1,0 +1,21 @@
+# Jennafer Ortiz
+#cs15138
+
+#----------------------------
+# Program asks "Why do we have to do this? ", takes an answer
+#  does nothing with the answer, asks "Why? " again,
+#  asks "Why? " again, and then says "Okay."
+#
+# Example transcript
+'''
+Why do we have to do this? Because I said so.
+Why? I just told you.
+Why? Because.
+Okay.
+'''
+#----------------------------
+
+input('Why do we have to do this? Because I said so. ')
+input('Why? ')
+input('Why? ')
+input('Okay. ')
