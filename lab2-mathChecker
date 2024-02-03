@@ -1,0 +1,58 @@
+#Jennafer Ortiz
+#cs15138
+
+#----------------------------
+#This file will be used for mathCheck.py
+#
+#Example output:
+#
+# Enter the answer for each problem:
+# 2 + 3 =
+# 5
+# Good job!
+#
+# 5 * 2 =
+# 12
+# Sorry!  The correct answer is: 10
+#
+# 8 / 4 =
+# 2
+# Good job!
+
+#import random
+
+#----------------------------
+
+from random import randint
+num1 = randint(0,10)
+num2 = randint(0,10)
+num3 = num1 + num2
+
+num4 = randint(0,10)
+num5 = randint(0,10)
+num6 = num4 * num5
+
+num7 = randint(0,10)
+num8 = randint(0,10)
+num9 = num7 / num8
+
+print('')
+print('Enter the answer for each problem: ')
+
+print(num1 ,'+', num2)
+input(num3)
+if num1 + num2 == num3:
+    print('Good job!')
+print('')
+
+print(num4 ,'*', num5)
+input(num9)
+if num4 * num5 == num6:
+    print('Sorry! The correct answer is ',num6,)
+print('')
+
+print(num7 ,'/', num8)
+input(num9)
+if num7 / num8 == num9:
+    print('Good job')
+print('')
