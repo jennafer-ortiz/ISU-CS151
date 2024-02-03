@@ -1,0 +1,18 @@
+# If you follow along in the video, you will not have anything else to do!
+
+# For face to face students, copy the code from hello.py 
+#  from class on Jan 24 here.
+
+#Jennafer Ortiz
+#CS151-001
+#MWF 9AM-9:50AM
+
+print('Hello World!') # print is a function
+name = input('What is your name? ')
+# now name is a variable
+print('Hello', name)
+# we run functions by having the name, then (), and inside () any stuff the function needs (parameters or arguments)
+
+age = input('How old are you (in years)? ')
+age = int(age)
+print('Next year, you will be', age + 1)
