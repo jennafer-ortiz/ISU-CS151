@@ -1,0 +1,39 @@
+#Jennafer Ortiz
+#cs15138
+
+#----------------------------
+
+#This file will be used for grades.py
+#Don't forget to include comments!
+#Sample program:
+#
+# Enter a numeric grade:  92
+# You got a(n) A!
+# Way to go!
+
+# Enter a numeric grade:  53
+# You got a(n) F!
+# Study more next time!
+
+#----------------------------
+
+#Grade Range:
+# 90 to 100 = A
+# 80 to 89 = B
+# 70 to 79 = C
+# 60 to 69 = D
+# Below 59 = F
+
+#input
+grade = int(input('Enter a numeric grade: '))
+
+if grade > 90 and grade < 100:
+    print('You got an A! Way to go! ')
+elif grade > 80 and grade < 89:
+    print('You got a B! Good job! ')
+elif grade > 70 and grade < 79:
+    print('You got a C! Not bad. ')
+elif grade >= 60 and grade < 69:
+    print('You got a D! You can do better. ')
+else:
+    print('You got an F! Study more next time! ')
